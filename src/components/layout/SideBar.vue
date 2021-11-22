@@ -1,33 +1,60 @@
 <template>
   <div>
-    <div class="d-flex flex-column flex-shrink-0 p-3 text-muted bg-dark vh-100" style="width: 240px;">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-    </a>
-    <a :href="logo"></a>
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
-        <a href="#" class="nav-link active" aria-current="page">
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-muted bg-light vh-100 shadow-lg" style="width: 320px;">
+    <img src="../../assets/bna-invoices.png" alt="logo" class="w-75 mx-auto mb-5 mt-4">
+    <ul class="nav nav-pills flex-column mb-auto p-3">
+      <li class="pb-3">
+        <a href="#" class="nav-link text-muted">
+          <i class="far fa-clock text-danger"></i>
           Dashboard
         </a>
       </li>
-      <li>
+      <li class="pb-3">
         <a href="#" class="nav-link text-muted">
-          Dashboard
+          <i class="far fa-users text-danger"></i>
+          Clients
         </a>
       </li>
-      <li>
+      <li class="pb-3">
         <a href="#" class="nav-link text-muted">
-          Orders
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-muted">
+          <i class="far fa-analytics text-danger"></i>
           Products
         </a>
       </li>
-      <li>
+      <li class="pb-3">
         <a href="#" class="nav-link text-muted">
-          Customers
+          <i class="far fa-file-invoice text-danger"></i>
+          Invoices
+        </a>
+      </li>
+      <li class="pb-3">
+        <a href="#" class="nav-link text-muted">
+          <i class="fal fa-credit-card text-danger"></i>
+          Payments
+        </a>
+      </li>
+      <li class="pb-3">
+        <a href="#" class="nav-link text-muted">
+          <i class="far fa-file-invoice text-danger"></i>
+          Credits
+        </a>
+      </li>
+      <li class="pb-3">
+        <a href="#" class="nav-link text-muted">
+          <i class="far fa-chart-pie-alt text-danger"></i>
+          Tasks
+        </a>
+      </li>
+      <li class="pb-3">
+        <a href="#" class="nav-link text-muted">
+          <i class="far fa-flag text-danger"></i>
+          Reports
+        </a>
+      </li>
+      <li class="pb-3">
+        <a href="#" class="nav-link text-muted">
+          <i class="far fa-cog mr-5 text-danger"></i>
+          Settings
         </a>
       </li>
     </ul>
@@ -37,6 +64,11 @@
 
 <script>
 export default {
-  props: ['logo']
 }
 </script>
+
+<style scoped>
+i {
+  margin-right: 5px;
+}
+</style>
