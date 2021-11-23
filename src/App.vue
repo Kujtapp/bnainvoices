@@ -1,7 +1,7 @@
 <template>
   <div class="row">
-    <side-bar class="col-md-2"></side-bar>
-    <header-bar class="col-md-10"></header-bar>
+    <side-bar class="col-md-2 g-0"></side-bar>
+    <header-bar class="col-md-10 g-0"></header-bar>
   </div>
 </template>
 
@@ -21,6 +21,8 @@ export default {
 <style lang="scss">
 
 body{
-  background-color: #f7fafc;
+  background-color: #F4F8FF;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
 }
 </style>

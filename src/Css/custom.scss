@@ -1,0 +1,9 @@
+$theme-colors: (
+    "primary": #06062A,
+    "secondary": #FA524D,
+    "light": #fff,
+);
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
