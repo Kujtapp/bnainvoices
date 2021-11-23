@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="d-flex flex-column flex-shrink-0 p-3 text-muted bg-light vh-100 shadow-lg">
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-muted bg-light shadow-lg h-100">
     <img src="../../assets/bna-invoices.png" alt="logo" class="w-75 mx-auto mb-5 mt-4">
     <ul class="nav nav-pills flex-column mb-auto p-3">
       <li class="pb-3">

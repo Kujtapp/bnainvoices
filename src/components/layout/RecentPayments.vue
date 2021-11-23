@@ -1,9 +1,9 @@
 <template>
     <div>
-        <div class="col-lg-4 col-md-12 col-sm-12">
-              <div class="card white-box p-0">
+        <div class="pe-5">
+              <div class="card white-box p-4 border-0">
                 <div class="card-heading">
-                  <h3 class="box-title mb-0">Chat Listing</h3>
+                  <h3 class="box-title mb-0">Recent Payments</h3>
                 </div>
                 <div class="card-body">
                   <ul class="chatonline">
