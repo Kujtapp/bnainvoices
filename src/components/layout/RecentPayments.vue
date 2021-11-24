@@ -1,110 +1,87 @@
 <template>
-    <div>
-        <div class="pe-5">
-              <div class="card white-box p-4 border-0">
-                <div class="card-heading">
-                  <h3 class="box-title mb-0">Recent Payments</h3>
-                </div>
-                <div class="card-body">
-                  <ul class="chatonline">
-                    <li>
-                      <div class="call-chat">
-                        <button class="btn btn-success text-white btn-circle btn" type="button">
-                          <i class="fas fa-phone"></i>
-                        </button>
-                        <button class="btn btn-info btn-circle btn" type="button">
-                          <i class="far fa-comments text-white"></i>
-                        </button>
-                      </div>
-                      <a href="javascript:void(0)" class="d-flex align-items-center"><img src="plugins/images/users/varun.jpg" alt="user-img" class="img-circle">
-                        <div class="ms-2">
-                          <span class="text-dark">Varun Dhavan
-                            <small class="d-block text-success d-block">online</small></span>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <div class="call-chat">
-                        <button class="btn btn-success text-white btn-circle btn" type="button">
-                          <i class="fas fa-phone"></i>
-                        </button>
-                        <button class="btn btn-info btn-circle btn" type="button">
-                          <i class="far fa-comments text-white"></i>
-                        </button>
-                      </div>
-                      <a href="javascript:void(0)" class="d-flex align-items-center"><img src="plugins/images/users/genu.jpg" alt="user-img" class="img-circle">
-                        <div class="ms-2">
-                          <span class="text-dark">Genelia Deshmukh
-                            <small class="d-block text-warning">Away</small></span>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <div class="call-chat">
-                        <button class="btn btn-success text-white btn-circle btn" type="button">
-                          <i class="fas fa-phone"></i>
-                        </button>
-                        <button class="btn btn-info btn-circle btn" type="button">
-                          <i class="far fa-comments text-white"></i>
-                        </button>
-                      </div>
-                      <a href="javascript:void(0)" class="d-flex align-items-center"><img src="plugins/images/users/ritesh.jpg" alt="user-img" class="img-circle">
-                        <div class="ms-2">
-                          <span class="text-dark">Ritesh Deshmukh
-                            <small class="d-block text-danger">Busy</small></span>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <div class="call-chat">
-                        <button class="btn btn-success text-white btn-circle btn" type="button">
-                          <i class="fas fa-phone"></i>
-                        </button>
-                        <button class="btn btn-info btn-circle btn" type="button">
-                          <i class="far fa-comments text-white"></i>
-                        </button>
-                      </div>
-                      <a href="javascript:void(0)" class="d-flex align-items-center"><img src="plugins/images/users/arijit.jpg" alt="user-img" class="img-circle">
-                        <div class="ms-2">
-                          <span class="text-dark">Arijit Sinh
-                            <small class="d-block text-muted">Offline</small></span>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <div class="call-chat">
-                        <button class="btn btn-success text-white btn-circle btn" type="button">
-                          <i class="fas fa-phone"></i>
-                        </button>
-                        <button class="btn btn-info btn-circle btn" type="button">
-                          <i class="far fa-comments text-white"></i>
-                        </button>
-                      </div>
-                      <a href="javascript:void(0)" class="d-flex align-items-center"><img src="plugins/images/users/govinda.jpg" alt="user-img" class="img-circle">
-                        <div class="ms-2">
-                          <span class="text-dark">Govinda Star
-                            <small class="d-block text-success">online</small></span>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <div class="call-chat">
-                        <button class="btn btn-success text-white btn-circle btn" type="button">
-                          <i class="fas fa-phone"></i>
-                        </button>
-                        <button class="btn btn-info btn-circle btn" type="button">
-                          <i class="far fa-comments text-white"></i>
-                        </button>
-                      </div>
-                      <a href="javascript:void(0)" class="d-flex align-items-center"><img src="plugins/images/users/hritik.jpg" alt="user-img" class="img-circle">
-                        <div class="ms-2">
-                          <span class="text-dark">John Abraham<small class="d-block text-success">online</small></span>
-                        </div>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-    </div>
+  <div>
+    <div class="row me-4 ms-1">
+      <div class="bg-light p-4 mt-2">
+        <h4 class="mb-3">Recent Payments</h4>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead class="bg-primary text-white">
+              <tr>
+                <th>Invoice ID</th>
+                <th>Client Name</th>
+                <th>Payment Date</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Deshmukh</td>
+                <td>Prohaska</td>
+                <td>5.25$</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Deshmukh</td>
+                <td>Gaylord</td>
+                <td>9.25$</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Sanghani</td>
+                <td>Gusikowski</td>
+                <td>15.25$</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Roshan</td>
+                <td>Rogahn</td>
+                <td>325.25$</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Joshi</td>
+                <td>1.1.2021</td>
+                <td>521.25$</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Nigam</td>
+                <td>Eichmann</td>
+                <td>5456.25$</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Nigam</td>
+                <td>Eichmann</td>
+                <td>5456.25$</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Nigam</td>
+                <td>Eichmann</td>
+                <td>5456.25$</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div> 
+  </div>
 </template>
+
+<style scoped>
+.table td, .table th {
+  padding: 20px;
+}
+.table th {
+  font-size: 14px;
+}
+.table > :not(:first-child) {
+ border-top: none;
+}
+.table-responsive {
+  max-height: 430px;
+}
+
+</style>

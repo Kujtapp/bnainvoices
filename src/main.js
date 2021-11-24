@@ -13,6 +13,7 @@ import UserCardsData from './components/layout/UserCardsData.vue';
 import TableData from './components/layout/TableData.vue';
 import ActivityLog from './components/layout/ActivityLog.vue';
 import RecentPayments from './components/layout/RecentPayments.vue';
+import InvoicesInOut from './components/layout/InvoicesInOut.vue';
 
 Vue.use(BootstrapVue);
 Vue.use(BootstrapVueIcons);
@@ -21,7 +22,8 @@ Vue.use('header-bar', HeaderBar);
 Vue.use('user-cards-data', UserCardsData);
 Vue.use('table-data', TableData);
 Vue.use('activity-log', ActivityLog);
-Vue.use('recent-payments', RecentPayments)
+Vue.use('recent-payments', RecentPayments);
+Vue.use('invoices-in-out', InvoicesInOut);
 
 Vue.config.productionTip = false
 

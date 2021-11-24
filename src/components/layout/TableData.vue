@@ -1,6 +1,6 @@
 <template>
     <div>
-    <div class="table-responsive bg-light p-4 mx-5">
+    <div class="table-responsive bg-light p-4 mx-4 mt-4">
         <div>
         <div class="mb-2 d-flex justify-content-between align-items-center">
             <div class="position-relative border rounded"> <span class="position-absolute search"><i class="fa fa-search text-secondary"></i></span> <input class="form-control w-100" placeholder="Search..."> </div>

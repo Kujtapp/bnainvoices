@@ -1,72 +1,87 @@
 <template>
-    <div>
-        <div class="ps-5">
-              <div class="card white-box p-2 border-0">
-                <div class="card-body">
-                  <h3 class="box-title mb-0">Activity Log</h3>
-                </div>
-                <div class="comment-widgets">
-                  <!-- Comment Row -->
-                  <div class="d-flex flex-row comment-row p-3 mt-0">
-                    <div class="p-2">
-                      <i class="far fa-bell text-dark fa-2x"></i>
-                    </div>
-                    <div class="comment-text ps-2 ps-md-3 w-100">
-                      <h5 class="font-medium">James Anderson</h5>
-                      <span class="mb-3 d-block">Lorem Ipsum is simply dummy text of the printing and
-                        type setting industry.It has survived not only five
-                        centuries.
-                      </span>
-                      <div class="comment-footer d-md-flex align-items-center">
-                        <span class="badge bg-primary rounded">Pending</span>
-
-                        <div class="text-muted ms-auto mt-2 mt-md-0">
-                          April 14, 2021
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Comment Row -->
-                  <div class="d-flex flex-row comment-row p-3">
-                    <div class="p-2">
-                      <i class="far fa-bell text-success fa-2x"></i>
-                    </div>
-                    <div class="comment-text ps-2 ps-md-3 active w-100">
-                      <h5 class="font-medium">Michael Jorden</h5>
-                      <span class="mb-3 d-block">Lorem Ipsum is simply dummy text of the printing and
-                        type setting industry.It has survived not only five
-                        centuries.
-                      </span>
-                      <div class="comment-footer d-md-flex align-items-center">
-                        <span class="badge bg-success rounded">Approved</span>
-                        <div class="text-muted ms-auto mt-2 mt-md-0">
-                          April 14, 2021
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Comment Row -->
-                  <div class="d-flex flex-row comment-row p-3">
-                    <div class="p-2">
-                      <i class="far fa-bell text-danger fa-2x"></i>
-                    </div>
-                    <div class="comment-text ps-2 ps-md-3 w-100">
-                      <h5 class="font-medium">Johnathan Doeting</h5>
-                      <span class="mb-3 d-block">Lorem Ipsum is simply dummy text of the printing and
-                        type setting industry.It has survived not only five
-                        centuries.
-                      </span>
-                      <div class="comment-footer d-md-flex align-items-center">
-                        <span class="badge rounded bg-danger">Rejected</span>
-
-                        <div class="text-muted ms-auto mt-2 mt-md-0">
-                          April 14, 2021
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-    </div>
+  <div>
+    <div class="row ms-4 me-1">
+      <div class="bg-light p-4 mt-2">
+        <h4 class="mb-3">Activity Log</h4>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead class="bg-primary text-white">
+              <tr>
+                <th>Invoice ID</th>
+                <th>Client Name</th>
+                <th>Payment Date</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Deshmukh</td>
+                <td>Prohaska</td>
+                <td>5.25$</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Deshmukh</td>
+                <td>Gaylord</td>
+                <td>9.25$</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Sanghani</td>
+                <td>Gusikowski</td>
+                <td>15.25$</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Roshan</td>
+                <td>Rogahn</td>
+                <td>325.25$</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Joshi</td>
+                <td>1.1.2021</td>
+                <td>521.25$</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Nigam</td>
+                <td>Eichmann</td>
+                <td>5456.25$</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Nigam</td>
+                <td>Eichmann</td>
+                <td>5456.25$</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Nigam</td>
+                <td>Eichmann</td>
+                <td>5456.25$</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div> 
+  </div>
 </template>
+
+<style scoped>
+.table td, .table th {
+  padding: 20px;
+}
+.table th {
+  font-size: 14px;
+}
+.table > :not(:first-child) {
+ border-top: none;
+}
+.table-responsive {
+  max-height: 430px;
+}
+
+</style>
