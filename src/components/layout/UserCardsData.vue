@@ -1,6 +1,6 @@
 <template>
 <div class="row">
-    <div class="col-4">
+    <div class="col-4 ps-0">
         <div class="card border-0">
             <div class="card-body">
                 <h5 class="card-title text-primary">Total Visit</h5>
@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <div class="col-4">
+    <div class="col-4 pe-0">
         <div class="card border-0">
             <div class="card-body">
                 <h5 class="card-title text-primary">Total Visit</h5>

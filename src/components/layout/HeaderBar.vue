@@ -17,7 +17,7 @@
         </div>
         <div class="col-1 d-flex my-auto justify-content-end">
           <i class="far fa-user-circle text-secondary fa-2x"></i>
-          <h6 class="text-white ms-1 my-auto me-2">Administrator</h6>
+          <h6 class="text-white ms-1 my-auto">Administrator</h6>
         </div>
       </div>
   </div>

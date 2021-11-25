@@ -6,7 +6,7 @@
             <div class="position-relative border rounded"> <span class="position-absolute search"><i class="fa fa-search text-secondary"></i></span> <input class="form-control w-100" placeholder="Search..."> </div>
             <div class="px-2"> <span>Filters <i class="fa fa-angle-down"></i></span> <i class="fa fa-ellipsis-h ms-3"></i> </div>
         </div>
-        <table class="table table-responsive table-borderless">
+        <table class="table table-responsive table-striped table-borderless">
             <thead>
                 <tr class="bg-light">
                     <th scope="col" width="5%"><input class="form-check-input" type="checkbox"></th>
