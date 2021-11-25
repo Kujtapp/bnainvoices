@@ -3,11 +3,21 @@
   <div class="bg-primary">
       <div class="row p-2 mx-2">
         <div class="col-9 my-auto">
-          <h5 class="text-white my-auto">Dashboard</h5>
+          <h6 class="text-white my-auto">Dashboard</h6>
         </div>
-        <div class="col-3 d-flex">
-          <input class="form-control" type="search" placeholder="Search" aria-label="Search"> 
-          <button class="btn btn-secondary text-white ml-2" type="submit">Search</button> 
+        <div class="col-2 d-flex">
+          <div class="py-1">
+            <div class="position-relative border-0"> 
+              <span class="position-absolute end-0 me-2">
+                <i class="fa fa-search text-secondary"></i>
+              </span>
+              <input class="form-control py-1 border-0 rounded-pill" placeholder="Search..."> 
+            </div>
+        </div>
+        </div>
+        <div class="col-1 d-flex my-auto justify-content-end">
+          <i class="far fa-user-circle text-secondary fa-2x"></i>
+          <h6 class="text-white ms-1 my-auto me-2">Administrator</h6>
         </div>
       </div>
   </div>
@@ -43,3 +53,8 @@ export default {
 }
 </script>
 
+<style scoped>
+.fa-search {
+  margin-top: 9px;
+}
+</style>
