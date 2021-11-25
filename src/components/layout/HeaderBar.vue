@@ -18,6 +18,7 @@
     <recent-payments class="col-6"></recent-payments>
   </div>
   <activity-log class="col-12"></activity-log>
+  <footer-view></footer-view>
 </div>
 </template>
 
@@ -27,6 +28,7 @@ import TableData from './TableData.vue'
 import ActivityLog from './InvoicesInOut.vue'
 import RecentPayments from './RecentPayments.vue'
 import InvoicesInOut from './ActivityLog.vue'
+import FooterView from './FooterView.vue'
 
 export default {
   components: { 
@@ -34,7 +36,8 @@ export default {
     TableData,
     ActivityLog,
     RecentPayments,
-    InvoicesInOut
+    InvoicesInOut,
+    FooterView
   },
 
 }
