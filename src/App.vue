@@ -14,7 +14,6 @@ export default {
     SideBar,
     HeaderBar,
   },
-  name: 'App',
 }
 </script>
 

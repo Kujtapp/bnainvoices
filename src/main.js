@@ -1,4 +1,5 @@
-import Vue from 'vue';
+import { createApp } from 'vue';
+import { createRouter, createWebHistory} from 'vue-router'
 import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
 
 import 'bootstrap/dist/css/bootstrap.css'
@@ -16,19 +17,25 @@ import RecentPayments from './components/layout/RecentPayments.vue';
 import InvoicesInOut from './components/layout/InvoicesInOut.vue';
 import FooterView from './components/layout/FooterView.vue';
 
-Vue.use(BootstrapVue);
-Vue.use(BootstrapVueIcons);
-Vue.use('side-bar', SideBar);
-Vue.use('header-bar', HeaderBar);
-Vue.use('user-cards-data', UserCardsData);
-Vue.use('table-data', TableData);
-Vue.use('activity-log', ActivityLog);
-Vue.use('recent-payments', RecentPayments);
-Vue.use('invoices-in-out', InvoicesInOut);
-Vue.use('footer-view', FooterView);
+const router = createRouter({
+  history: createWebHistory(),
+  routes: [
+    {path: '', Component}
+  ]
+});
 
-Vue.config.productionTip = false
+const app = createApp(App);
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+app.use(router);
+app.use(BootstrapVue);
+app.use(BootstrapVueIcons);
+app.component('side-bar', SideBar);
+app.component('header-bar', HeaderBar);
+app.component('user-cards-data', UserCardsData);
+app.component('table-data', TableData);
+app.component('activity-log', ActivityLog);
+app.component('recent-payments', RecentPayments);
+app.component('invoices-in-out', InvoicesInOut);
+app.component('footer-view', FooterView);
+
+app.mount('#app')

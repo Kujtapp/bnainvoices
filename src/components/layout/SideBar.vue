@@ -10,7 +10,7 @@
         </a>
       </li>
       <li class="pb-3">
-        <a href="#" class="nav-link text-primary">
+        <a href="goToClients()" class="nav-link text-primary">
           <i class="far fa-users text-secondary"></i>
           Clients
         </a>
@@ -63,7 +63,16 @@
 </template>
 
 <script>
+import ClientsTable from '../UI/clients/ClientsTable.vue'
 export default {
+  components: {
+    ClientsTable
+  },
+  methods: {
+    goToClients() {
+      $router.push('./UI/clients/ClientsTable.vue')
+    }
+  }
 }
 </script>
 

@@ -2,10 +2,10 @@
 <div>
   <div class="bg-primary">
       <div class="row p-2 mx-2">
-        <div class="col-9 my-auto">
+        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-6 my-auto">
           <h6 class="text-white my-auto">Dashboard</h6>
         </div>
-        <div class="col-2 d-flex">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 d-flex">
           <div class="py-1">
             <div class="position-relative border-0"> 
               <span class="position-absolute end-0 me-2">
